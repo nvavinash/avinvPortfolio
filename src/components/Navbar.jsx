@@ -17,8 +17,8 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0,0)
         }}>
-          <img src={logo} alt={logo} className="w-9 h-9 object-contain"/>
-          <p className="text-white text-[18px] font-bold cursor-pointer flex"> Avinash &nbsp;<span className="sm:block hidden"> | MERN Stack Dev</span></p>
+          <img src={logo} alt={logo} className="w-9 h-109 object-contain"/>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex"> AviC &nbsp;<span className="sm:block hidden"> | MERN Stack Dev</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
             {navLinks.map((links) => 
